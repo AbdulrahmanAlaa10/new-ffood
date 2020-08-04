@@ -1,0 +1,401 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+
+}
+/*
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+*/
+.navnvbar{
+  font-size: x-large;
+  padding: 10px;
+  letter-spacing: 4px;
+}
+.links .barr{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.boox {
+  position: relative;
+  width: 360px;
+  height: 80px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 5px solid (250, 135, 160);
+  background: #fff;
+
+}
+
+.boox .front-face 
+.boox .back-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.boox .front-face {
+  line-height: 70px;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -5px;
+  color: #fff;
+  background: (241, 44, 87);
+  transform-origin: left;
+  transition: .4s;
+}
+
+.boox:hover .front-face{
+  transform: rotateY(100deg) skewY(5deg);
+}
+
+.boox:hover .front-face p {
+  opacity: 0;
+  transition: .4s;
+}
+.boox:hover .front-face span {
+  width: 100%;
+  height: 100%;
+  transform: rotateY(-100deg) skewY(5deg);
+}
+
+.boox .back-face {
+  background: (250, 135, 160);
+  line-height: 65px;
+  text-align: center;
+  box-shadow: inset 0 0 15px (241, 44, 87);
+}
+.boox .back-face input {
+  width: 65%;
+  height: 50%;
+  padding-left: 12px;
+  color: (241, 44, 87);
+  font-weight: 600;
+  border: 1px solid (241, 44, 87);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius:5px ;
+  transition: .4s;
+}
+
+.boox .back-face button {
+  cursor: pointer;
+  width: 25%;
+  height: 50%;
+  color: #fff;
+  background: (241, 44, 87) ;
+  letter-spacing: -5px;
+  border: 1px solid (241, 44, 87);
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.navnvbar{
+  font-size: x-large;
+  padding: 10px;
+  letter-spacing: 4px;
+}
+.links .barr{
+margin-left: 10px;
+margin-right: 10px;
+}
+.images{
+  width: 100%;
+  height: 570px;
+}
+.phphph {
+  font-size: 50px!important;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+
+}
+.contant{
+  margin-left: auto;
+  margin-right: auto;
+}
+.row{
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+@media (min-width: 601px){
+  col.m6 {
+    width: 49.99999%;
+}
+}
+.large {
+  padding: 12px 24px!important;
+}
+.col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+  float: left;
+
+}
+.round{
+  width: 100%;
+  height: 450px;
+  border-radius: 4px;
+  transition: all ease-in 0.3s;
+}
+.round:hover{
+opacity: 0.9;
+transform: scaleY(1.1);
+
+}
+.center {
+  text-align: center!important;
+}
+.large {
+  font-size: 18px!important;
+  direction: rtl;
+}
+.w3-text-grey{
+  color: #757575!important;
+}
+.row{
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+.col.lg{
+  padding: 12px 24px!important;
+}
+@media (min-width: 993px){
+  .col.l6 {
+    width: 49.99999%;
+}
+}
+
+.col{
+  float: left;
+    width: 100%;
+}
+
+.center {
+  text-align: center!important;
+}
+.w3-text-grey
+{
+color: #757575!important;
+}
+
+.w3-round, .w3-round-medium {
+  border-radius: 4px;
+}
+.w3-image {
+  max-width: 100%;
+  height: 520px;
+  margin-top: 30px;
+}
+.w3-padding-large {
+  padding: 12px 24px!important;
+}
+
+.container .contact {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+  padding: 0.01em 16px;
+
+}
+.texts{
+  color: #607d8b!important;
+    font-size: 18px!important;
+}
+
+.inppuut {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    overflow: visible;
+}
+.butn{
+  color: #000!important;
+  background-color: #f1f1f1!important;
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.ww-center{
+  color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    text-align: center!important;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.images{
+  width: 100%;
+  height: 570px;
+}
+*/
+/*
+.phphph {
+  font-size: 50px!important;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+
+}
+.contant{
+  margin-left: auto;
+  margin-right: auto;
+}
+.row{
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+@media (min-width: 601px){
+  col.m6 {
+    width: 49.99999%;
+}
+}
+.large {
+  padding: 12px 24px!important;
+}
+.col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+  float: left;
+
+}
+.round{
+  width: 100%;
+  height: 450px;
+  border-radius: 4px;
+  transition: all ease-in 0.3s;
+}
+.round:hover{
+opacity: 0.9;
+transform: scaleY(1.1);
+
+}
+.center {
+  text-align: center!important;
+}
+.large {
+  font-size: 18px!important;
+  direction: rtl;
+}
+.w3-text-grey{
+  color: #757575!important;
+}
+.row{
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+.col.lg{
+  padding: 12px 24px!important;
+}
+@media (min-width: 993px){
+  .col.l6 {
+    width: 49.99999%;
+}
+}
+
+.col{
+  float: left;
+    width: 100%;
+}
+
+.center {
+  text-align: center!important;
+}
+.w3-text-grey
+{
+color: #757575!important;
+}
+
+.w3-round, .w3-round-medium {
+  border-radius: 4px;
+}
+.w3-image {
+  max-width: 100%;
+  height: 520px;
+  margin-top: 30px;
+}
+.w3-padding-large {
+  padding: 12px 24px!important;
+}
+
+.container .contact {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+  padding: 0.01em 16px;
+
+}
+.texts{
+  color: #607d8b!important;
+    font-size: 18px!important;
+}
+
+.inppuut {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    overflow: visible;
+}
+.butn{
+  color: #000!important;
+  background-color: #f1f1f1!important;
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.ww-center{
+  color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    text-align: center!important;
+  
+}
+*/
